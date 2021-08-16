@@ -51,10 +51,11 @@ public class Test {
             System.out.println(a);
             System.out.println(b);
         };
+
         biConsumer1.andThen(biConsumer).accept(new StringBuilder("Hello "), new StringBuilder("Jack! ")); // Hello Jack
 
 
-       // System.out.println(sb.toString());
+        System.out.println(sb.toString());
 
     }
 }

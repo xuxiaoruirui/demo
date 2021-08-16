@@ -1,0 +1,4 @@
+
+jsquid:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Ÿê¯Û
+0squid:S2225"Return a non null object.(¥¹ï
+_squid:S1182"HUse super.clone() to create and seed the cloned instance to be returned.(Ÿê¯Û

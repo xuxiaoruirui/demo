@@ -1,0 +1,12 @@
+
+Gsquid:S1444"0Make this "public static dataSource" field final(±÷ý¤
+„"squid:ClassVariableVisibilityCheck"VMake dataSource a static final constant or non-public and provide accessors if needed.(±÷ý¤
+?squid:S1148&"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148O"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148Y"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148c"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Psquid:S1118":Add a private constructor to hide the implicit public one.(ß²¾
+Hsquid:S1135"2Complete the task associated to this TODO comment.(£°§\
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(µºùõüÿÿÿÿ
+gsquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(÷¾¨˜üÿÿÿÿ
