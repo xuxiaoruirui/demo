@@ -1,0 +1,333 @@
+package gpstudy.strategy.test.impl;
+
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+
+public class Json {
+    public static void main(String[] args) {
+        String body="[\n" +
+                "    {\n" +
+                "        \"userId\": \"123684\",\n" +
+                "        \"custPwd\": null,\n" +
+                "        \"loginType\": null,\n" +
+                "        \"custNickNm\": \"叶子\",\n" +
+                "        \"custStatCd\": null,\n" +
+                "        \"userRealName\": null,\n" +
+                "        \"sex\": null,\n" +
+                "        \"birthday\": null,\n" +
+                "        \"custCertNo\": null,\n" +
+                "        \"custMobile\": null,\n" +
+                "        \"custEmail\": \"bowie12138@gmail.com\",\n" +
+                "        \"externalId\": null,\n" +
+                "        \"thirdExtraId\": null,\n" +
+                "        \"clientType\": null,\n" +
+                "        \"authEmail\": 1,\n" +
+                "        \"authMobile\": 1,\n" +
+                "        \"receiveEmail\": 1,\n" +
+                "        \"receiveSms\": 1,\n" +
+                "        \"receivePush\": 1,\n" +
+                "        \"country\": null,\n" +
+                "        \"language\": null,\n" +
+                "        \"platform\": null,\n" +
+                "        \"currency\": null,\n" +
+                "        \"createTime\": null,\n" +
+                "        \"updateTime\": null,\n" +
+                "        \"remark\": null,\n" +
+                "        \"region\": null,\n" +
+                "        \"acceptAgreement\": 1,\n" +
+                "        \"historyEmail\": null,\n" +
+                "        \"bi\": null\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"userId\": \"123685\",\n" +
+                "        \"custPwd\": null,\n" +
+                "        \"loginType\": null,\n" +
+                "        \"custNickNm\": \"\",\n" +
+                "        \"custStatCd\": null,\n" +
+                "        \"userRealName\": null,\n" +
+                "        \"sex\": null,\n" +
+                "        \"birthday\": null,\n" +
+                "        \"custCertNo\": null,\n" +
+                "        \"custMobile\": null,\n" +
+                "        \"custEmail\": \"bowie12138@gmail.com\",\n" +
+                "        \"externalId\": null,\n" +
+                "        \"thirdExtraId\": null,\n" +
+                "        \"clientType\": null,\n" +
+                "        \"authEmail\": 1,\n" +
+                "        \"authMobile\": 1,\n" +
+                "        \"receiveEmail\": 1,\n" +
+                "        \"receiveSms\": 1,\n" +
+                "        \"receivePush\": 1,\n" +
+                "        \"country\": null,\n" +
+                "        \"language\": null,\n" +
+                "        \"platform\": null,\n" +
+                "        \"currency\": null,\n" +
+                "        \"createTime\": null,\n" +
+                "        \"updateTime\": null,\n" +
+                "        \"remark\": null,\n" +
+                "        \"region\": null,\n" +
+                "        \"acceptAgreement\": 1,\n" +
+                "        \"historyEmail\": null,\n" +
+                "        \"bi\": null\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"userId\": \"123221\",\n" +
+                "        \"custPwd\": null,\n" +
+                "        \"loginType\": null,\n" +
+                "        \"custNickNm\": null,\n" +
+                "        \"custStatCd\": \"N000400200\",\n" +
+                "        \"userRealName\": \"\",\n" +
+                "        \"sex\": null,\n" +
+                "        \"birthday\": null,\n" +
+                "        \"custCertNo\": \"\",\n" +
+                "        \"custMobile\": \"\",\n" +
+                "        \"custEmail\": \"Jkkkkk@qq.com\",\n" +
+                "        \"externalId\": \"\",\n" +
+                "        \"thirdExtraId\": null,\n" +
+                "        \"clientType\": null,\n" +
+                "        \"authEmail\": null,\n" +
+                "        \"authMobile\": null,\n" +
+                "        \"receiveEmail\": null,\n" +
+                "        \"receiveSms\": null,\n" +
+                "        \"receivePush\": null,\n" +
+                "        \"country\": null,\n" +
+                "        \"language\": null,\n" +
+                "        \"platform\": null,\n" +
+                "        \"currency\": null,\n" +
+                "        \"createTime\": null,\n" +
+                "        \"updateTime\": 1566384918000,\n" +
+                "        \"remark\": \"\",\n" +
+                "        \"region\": null,\n" +
+                "        \"acceptAgreement\": 1,\n" +
+                "        \"historyEmail\": null,\n" +
+                "        \"bi\": null\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"userId\": \"123685\",\n" +
+                "        \"custPwd\": null,\n" +
+                "        \"loginType\": null,\n" +
+                "        \"custNickNm\": \"\",\n" +
+                "        \"custStatCd\": \"N000400200\",\n" +
+                "        \"userRealName\": null,\n" +
+                "        \"sex\": null,\n" +
+                "        \"birthday\": null,\n" +
+                "        \"custCertNo\": null,\n" +
+                "        \"custMobile\": null,\n" +
+                "        \"custEmail\": \"bowie12138@gmail.com\",\n" +
+                "        \"externalId\": null,\n" +
+                "        \"thirdExtraId\": null,\n" +
+                "        \"clientType\": null,\n" +
+                "        \"authEmail\": 1,\n" +
+                "        \"authMobile\": 1,\n" +
+                "        \"receiveEmail\": 1,\n" +
+                "        \"receiveSms\": 1,\n" +
+                "        \"receivePush\": 1,\n" +
+                "        \"country\": null,\n" +
+                "        \"language\": null,\n" +
+                "        \"platform\": \"\",\n" +
+                "        \"currency\": null,\n" +
+                "        \"createTime\": null,\n" +
+                "        \"updateTime\": null,\n" +
+                "        \"remark\": null,\n" +
+                "        \"region\": null,\n" +
+                "        \"acceptAgreement\": 1,\n" +
+                "        \"historyEmail\": null,\n" +
+                "        \"bi\": null\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"userId\": \"123687\",\n" +
+                "        \"custPwd\": null,\n" +
+                "        \"loginType\": null,\n" +
+                "        \"custNickNm\": \"\",\n" +
+                "        \"custStatCd\": null,\n" +
+                "        \"userRealName\": null,\n" +
+                "        \"sex\": null,\n" +
+                "        \"birthday\": null,\n" +
+                "        \"custCertNo\": null,\n" +
+                "        \"custMobile\": null,\n" +
+                "        \"custEmail\": \"bowie12138@gmail.com\",\n" +
+                "        \"externalId\": null,\n" +
+                "        \"thirdExtraId\": null,\n" +
+                "        \"clientType\": null,\n" +
+                "        \"authEmail\": 1,\n" +
+                "        \"authMobile\": 1,\n" +
+                "        \"receiveEmail\": 1,\n" +
+                "        \"receiveSms\": 1,\n" +
+                "        \"receivePush\": 1,\n" +
+                "        \"country\": null,\n" +
+                "        \"language\": null,\n" +
+                "        \"platform\": null,\n" +
+                "        \"currency\": null,\n" +
+                "        \"createTime\": null,\n" +
+                "        \"updateTime\": null,\n" +
+                "        \"remark\": null,\n" +
+                "        \"region\": null,\n" +
+                "        \"acceptAgreement\": 1,\n" +
+                "        \"historyEmail\": null,\n" +
+                "        \"bi\": null\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"userId\": \"123687\",\n" +
+                "        \"custPwd\": null,\n" +
+                "        \"loginType\": null,\n" +
+                "        \"custNickNm\": \"\",\n" +
+                "        \"custStatCd\": \"N000400200\",\n" +
+                "        \"userRealName\": null,\n" +
+                "        \"sex\": null,\n" +
+                "        \"birthday\": null,\n" +
+                "        \"custCertNo\": null,\n" +
+                "        \"custMobile\": null,\n" +
+                "        \"custEmail\": \"bowie12138@gmail.com\",\n" +
+                "        \"externalId\": null,\n" +
+                "        \"thirdExtraId\": null,\n" +
+                "        \"clientType\": null,\n" +
+                "        \"authEmail\": 1,\n" +
+                "        \"authMobile\": 1,\n" +
+                "        \"receiveEmail\": 1,\n" +
+                "        \"receiveSms\": 1,\n" +
+                "        \"receivePush\": 1,\n" +
+                "        \"country\": null,\n" +
+                "        \"language\": null,\n" +
+                "        \"platform\": \"\",\n" +
+                "        \"currency\": null,\n" +
+                "        \"createTime\": null,\n" +
+                "        \"updateTime\": null,\n" +
+                "        \"remark\": null,\n" +
+                "        \"region\": null,\n" +
+                "        \"acceptAgreement\": 1,\n" +
+                "        \"historyEmail\": null,\n" +
+                "        \"bi\": null\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"userId\": \"123687\",\n" +
+                "        \"custPwd\": null,\n" +
+                "        \"loginType\": null,\n" +
+                "        \"custNickNm\": \"\",\n" +
+                "        \"custStatCd\": \"N000400200\",\n" +
+                "        \"userRealName\": null,\n" +
+                "        \"sex\": null,\n" +
+                "        \"birthday\": null,\n" +
+                "        \"custCertNo\": null,\n" +
+                "        \"custMobile\": null,\n" +
+                "        \"custEmail\": \"bowie12138@gmail.com\",\n" +
+                "        \"externalId\": null,\n" +
+                "        \"thirdExtraId\": null,\n" +
+                "        \"clientType\": null,\n" +
+                "        \"authEmail\": 1,\n" +
+                "        \"authMobile\": 1,\n" +
+                "        \"receiveEmail\": 1,\n" +
+                "        \"receiveSms\": 1,\n" +
+                "        \"receivePush\": 1,\n" +
+                "        \"country\": null,\n" +
+                "        \"language\": null,\n" +
+                "        \"platform\": \"\",\n" +
+                "        \"currency\": null,\n" +
+                "        \"createTime\": null,\n" +
+                "        \"updateTime\": null,\n" +
+                "        \"remark\": null,\n" +
+                "        \"region\": null,\n" +
+                "        \"acceptAgreement\": 1,\n" +
+                "        \"historyEmail\": null,\n" +
+                "        \"bi\": null\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"userId\": \"123687\",\n" +
+                "        \"custPwd\": null,\n" +
+                "        \"loginType\": null,\n" +
+                "        \"custNickNm\": \"\",\n" +
+                "        \"custStatCd\": \"N000400200\",\n" +
+                "        \"userRealName\": null,\n" +
+                "        \"sex\": null,\n" +
+                "        \"birthday\": null,\n" +
+                "        \"custCertNo\": null,\n" +
+                "        \"custMobile\": null,\n" +
+                "        \"custEmail\": \"bowie12138@gmail.com\",\n" +
+                "        \"externalId\": null,\n" +
+                "        \"thirdExtraId\": null,\n" +
+                "        \"clientType\": null,\n" +
+                "        \"authEmail\": 1,\n" +
+                "        \"authMobile\": 1,\n" +
+                "        \"receiveEmail\": 1,\n" +
+                "        \"receiveSms\": 1,\n" +
+                "        \"receivePush\": 1,\n" +
+                "        \"country\": null,\n" +
+                "        \"language\": null,\n" +
+                "        \"platform\": \"\",\n" +
+                "        \"currency\": null,\n" +
+                "        \"createTime\": null,\n" +
+                "        \"updateTime\": null,\n" +
+                "        \"remark\": null,\n" +
+                "        \"region\": null,\n" +
+                "        \"acceptAgreement\": 1,\n" +
+                "        \"historyEmail\": null,\n" +
+                "        \"bi\": null\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"userId\": \"123221\",\n" +
+                "        \"custPwd\": null,\n" +
+                "        \"loginType\": null,\n" +
+                "        \"custNickNm\": null,\n" +
+                "        \"custStatCd\": \"N000400500\",\n" +
+                "        \"userRealName\": \"\",\n" +
+                "        \"sex\": null,\n" +
+                "        \"birthday\": null,\n" +
+                "        \"custCertNo\": \"\",\n" +
+                "        \"custMobile\": \"\",\n" +
+                "        \"custEmail\": \"test111@qq.com\",\n" +
+                "        \"externalId\": \"\",\n" +
+                "        \"thirdExtraId\": null,\n" +
+                "        \"clientType\": null,\n" +
+                "        \"authEmail\": null,\n" +
+                "        \"authMobile\": null,\n" +
+                "        \"receiveEmail\": null,\n" +
+                "        \"receiveSms\": null,\n" +
+                "        \"receivePush\": null,\n" +
+                "        \"country\": null,\n" +
+                "        \"language\": null,\n" +
+                "        \"platform\": null,\n" +
+                "        \"currency\": null,\n" +
+                "        \"createTime\": null,\n" +
+                "        \"updateTime\": 1566439932000,\n" +
+                "        \"remark\": \"\",\n" +
+                "        \"region\": null,\n" +
+                "        \"acceptAgreement\": 1,\n" +
+                "        \"historyEmail\": null,\n" +
+                "        \"bi\": null\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"userId\": \"123221\",\n" +
+                "        \"custPwd\": null,\n" +
+                "        \"loginType\": null,\n" +
+                "        \"custNickNm\": null,\n" +
+                "        \"custStatCd\": \"N000400500\",\n" +
+                "        \"userRealName\": \"\",\n" +
+                "        \"sex\": null,\n" +
+                "        \"birthday\": null,\n" +
+                "        \"custCertNo\": \"\",\n" +
+                "        \"custMobile\": \"\",\n" +
+                "        \"custEmail\": \"test111@qq.com\",\n" +
+                "        \"externalId\": \"\",\n" +
+                "        \"thirdExtraId\": null,\n" +
+                "        \"clientType\": null,\n" +
+                "        \"authEmail\": null,\n" +
+                "        \"authMobile\": null,\n" +
+                "        \"receiveEmail\": null,\n" +
+                "        \"receiveSms\": null,\n" +
+                "        \"receivePush\": null,\n" +
+                "        \"country\": null,\n" +
+                "        \"language\": null,\n" +
+                "        \"platform\": null,\n" +
+                "        \"currency\": null,\n" +
+                "        \"createTime\": null,\n" +
+                "        \"updateTime\": 1566439932000,\n" +
+                "        \"remark\": \"\",\n" +
+                "        \"region\": null,\n" +
+                "        \"acceptAgreement\": 1,\n" +
+                "        \"historyEmail\": null,\n" +
+                "        \"bi\": null\n" +
+                "    }\n" +
+                "]";
+        JSONArray jsonArray = JSON.parseArray(body);
+        System.out.println(jsonArray);
+    }
+}

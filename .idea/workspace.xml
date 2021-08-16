@@ -4,11 +4,179 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02b8ec6d-036f-4fc3-836f-f9dcb498c1c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bigData/jvm_09/p188/MyObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bigData/jvm_09/p203/T2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java8/demo2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/demo2/Test.java" afterDir="false" />
+    <list default="true" id="02b8ec6d-036f-4fc3-836f-f9dcb498c1c2" name="Default Changelist" comment="设计模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/ObjectToXml/AppAccountEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/ObjectToXml/AppAccountListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/ObjectToXml/JavaToXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/ObjectToXml/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/abs/AbsFather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/abs/F.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/abs/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/abs/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/collect/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/collect/collect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/BigTrouser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/Finery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/TShirts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/demo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/demo/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/demo/ConcreteComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/demo/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/demo/Decorator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/demo/Decorator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/demo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/demo2/ConcreteComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/demo2/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/demo2/Decorator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/decorator/demo2/Decorator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/executor/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/Demo3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/Demo3/LeiFeng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/Demo3/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/Demo3/Volunteer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/Demo3/Xu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo1/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo1/Div.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo1/Mul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo1/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo1/OperationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo1/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo2/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo2/AddFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo2/Div.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo2/Mul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo2/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo2/OperationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/factory/demo2/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/generics/FruitGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/generics/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/generics/Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/generics/GenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/hanlp/SimilarityUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/hanlp/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/java8/demo/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/java8/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/java8/demo2/BiConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/java8/demo2/BiFunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/java8/demo2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/java8/demo2/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/json/JsonRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/Dispatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/DynamicProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/FieldHasNoPolymorphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/FinalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/GenericTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/MethodHandleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/Shutdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/T27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/VolatileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/VolatileFeaturesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/innerclass/Out.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/jvm/innerclass/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/arithmetic/HasStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/arithmetic/T14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/arithmetic/T169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/arithmetic/T20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/arithmetic/T24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/arithmetic/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/arithmetic/T7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/arithmetic/T9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/arithmetic/Test001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/arithmetic/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/arithmetic/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/arithmetic/Test27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/interview/T001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/interview/T002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/interview/T004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/interview/T005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/interview/T0452.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/interview/T1672.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/interview/T664.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/leetcode/interview/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/lock/DeadLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/original/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/original/ConcretePrototype1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/original/ConcretePrototype2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/original/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/original/Realizetype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/original/Resume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/original/demo1/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/original/demo1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/original/demo1/PrototypeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/original/demo1/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/original/demo1/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/profit/AbsStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/proxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/proxy/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/proxy/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/proxy/demo/AbstractSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/proxy/demo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/proxy/demo/DynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/proxy/demo/RealSubject1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/proxy/demo/RealSubject2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/repetition/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/repetition/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/ConcreteStrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/ConcreteStrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/ConcreteStrategyC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/ConcreteStrategyD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/HtmlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/StrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/Fly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/factory/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/factory/DIYComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/factory/ESportsTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/factory/MerchantJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/factory/OfficeTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/factory/OrgComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/factory/ProductFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/factory/ProductFactory1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/factory/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/impl/BadFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/impl/GaGaQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/impl/GeGeQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/impl/GoodFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/impl/Json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/impl/ListTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/impl/NoFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/impl/NoQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/impl/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/strategy/test/impl/ToyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/CurlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/DataSourceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/DateTim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/EmoJi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/Has.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/SingleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/T4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/T5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/TEst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/TT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/Tes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/test/gupiao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/thread/BankWaterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/thread/ExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/thread/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/thread/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gpstudy/thread/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +239,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579604984417" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/gpstudy/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -199,6 +368,7 @@
       <workItem from="1621821211831" duration="6861000" />
       <workItem from="1627991562866" duration="50000" />
       <workItem from="1628057976132" duration="7588000" />
+      <workItem from="1629104526908" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1577077672841</created>
@@ -207,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577077672841</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="设计模式">
+      <created>1629104603021</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629104603021</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
